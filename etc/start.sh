@@ -8,6 +8,10 @@ echo -e "Host *\n\tStrictHostKeyChecking no\n" >> /root/.ssh/config
 echo "Europe/Moscow" > /etc/timezone                     
 cp /usr/share/zoneinfo/Europe/Moscow /etc/localtime 
 
+#git 
+git config --global user.email "politsin@gmail.com"
+git config --global user.name  "Anatoly Politsin"
+
 # www-data user
 usermod -d /var/www/ www-data
 chsh -s /bin/bash www-data

@@ -1,0 +1,9 @@
+{
+    "cid": "8.1.2-commandfiles-1-dd4ed153a09b7c7628c44e321f0adf90",
+    "data": {
+        "locale.d8": "phar:\/\/\/usr\/local\/bin\/drush\/includes\/..\/commands\/\/core\/locale.d8.drush.inc",
+        "views.d8": "phar:\/\/\/usr\/local\/bin\/drush\/includes\/..\/commands\/\/core\/views.d8.drush.inc"
+    },
+    "created": 1468656741,
+    "expire": 0
+}

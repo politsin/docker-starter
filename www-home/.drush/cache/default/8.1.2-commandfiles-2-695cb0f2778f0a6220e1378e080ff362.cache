@@ -1,0 +1,17 @@
+{
+    "cid": "8.1.2-commandfiles-2-695cb0f2778f0a6220e1378e080ff362",
+    "data": {
+        "config_devel": "modules\/config\/config_devel\/drush\/config_devel.drush.inc",
+        "config_update_ui": "modules\/config\/config_update\/config_update_ui\/config_update_ui.drush.inc",
+        "features": "modules\/config\/features\/drush\/features.drush.inc",
+        "composer_manager": "modules\/contrib\/composer_manager\/composer_manager.drush.inc",
+        "colorbox": "modules\/contrib\/colorbox\/drush\/colorbox.drush.inc",
+        "token": "modules\/contrib\/token\/token.drush.inc",
+        "devel_generate": "modules\/contrib\/devel\/devel_generate\/drush\/devel_generate.drush.inc",
+        "devel": "modules\/contrib\/devel\/drush\/devel.drush.inc",
+        "phpstorm": "modules\/contrib\/devel\/drush\/phpstorm.drush.inc",
+        "simple_sitemap": "modules\/contrib\/simple_sitemap\/simple_sitemap.drush.inc"
+    },
+    "created": 1468656741,
+    "expire": 0
+}

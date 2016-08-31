@@ -31,6 +31,7 @@ thread_cache_size          = 0
 host_cache_size            = 0
 innodb_ft_cache_size       = 1600000
 innodb_ft_total_cache_size = 32000000
+max_allowed_packet = 32M 
 
 # per thread or per operation settings
 thread_stack               = 131072

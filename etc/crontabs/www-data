@@ -1,2 +1,2 @@
 # Example cron run every 5 min: */5 * * * * drush cron --root=/var/www/html
-*/5 * * * * drush cron --root=/var/www/html
+*/15 * * * * /usr/local/bin/drush cron --root=/var/www/html

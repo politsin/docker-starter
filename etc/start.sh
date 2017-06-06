@@ -21,10 +21,15 @@ chown www-data.www-data /var/www/.bashrc
 chown -Rf www-data.www-data /var/www/.ssh
 
 chmod 600 /var/www/.ssh/authorized_keys
-chown -Rf www-data.www-data /var/spool/cron/crontabs/www-data
+
 chown -Rf www-data.www-data /var/www/html/
 chown -Rf www-data.www-data /var/www/.drush
 chown -Rf www-data.www-data /var/www/.console
+
+# cron
+chown -Rf www-data.www-data /var/spool/cron/crontabs/www-data
+chmod -R 0777 /var/spool/cron/crontabs
+chmod -R 0600 /var/spool/cron/crontabs/www-data
 
 # php-fpm socket
 mkdir -p /run/php/

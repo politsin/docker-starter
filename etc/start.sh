@@ -21,7 +21,7 @@ chown www-data.www-data /var/www/.bashrc
 chown -Rf www-data.www-data /var/www/.ssh
 
 chmod 600 /var/www/.ssh/authorized_keys
-chown -Rf www-data.www-data /var/spool/cron/crontabs
+chown -Rf www-data.www-data /var/spool/cron/crontabs/www-data
 chown -Rf www-data.www-data /var/www/html/
 chown -Rf www-data.www-data /var/www/.drush
 chown -Rf www-data.www-data /var/www/.console

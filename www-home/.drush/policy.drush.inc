@@ -21,8 +21,10 @@ function drush_policy_pm_download_validate() {
 
 function _deny_message($module = 'references') {
   if (!drush_get_option('pm-force')) {
-    $msg = "Drush dl forbidden! Use Composer: drush up = `composer update` & drush dl $module = `composer require drupal/$module`. Or be bad and use --pm-force";
-
+     $msg = "Drush dl forbidden! Use Composer:
+  * drush up = `composer update` &
+  * drush dl $module = `composer require drupal/$module`.
+  x Or be bad and use `drush dl $module --pm-force`";
     return drush_set_error('POLICY_PM_DENY', dt($msg));
   }
 }

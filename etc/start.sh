@@ -1,7 +1,7 @@
 #!/bin/bash
 
-echo "Europe/Moscow" > /etc/timezone                     
-cp /usr/share/zoneinfo/Europe/Moscow /etc/localtime 
+# echo "Europe/Moscow" > /etc/timezone                     
+# cp /usr/share/zoneinfo/Europe/Moscow /etc/localtime 
 
 # www-data user
 usermod -d /var/www/ www-data
@@ -12,7 +12,6 @@ chown www-data.www-data /var/www/.bashrc
 chown www-data.www-data /var/www/.gitconfig
 chown -Rf www-data.www-data /var/www/html
 chown -Rf www-data.www-data /var/www/.drush
-chown -Rf www-data.www-data /var/www/.console
 chown -Rf www-data.www-data /var/www/.composer
 chown -Rf www-data.www-data /var/www/.ssh
 

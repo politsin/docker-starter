@@ -87,3 +87,5 @@ fi
 if [ -f "/var/www/.drush/drush.prompt.sh" ] ; then
   source /var/www/.drush/drush.prompt.sh
 fi
+
+export PATH="$PATH:${HOME}html/vendor/bin"

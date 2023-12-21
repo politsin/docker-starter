@@ -1,7 +1,3 @@
-# Include Drush bash customizations.
-if [ -f "/var/www/.drush/drush.bashrc" ] ; then
-  source /var/www/.drush/drush.bashrc
-fi
 
 #-------
 # Цвета
@@ -80,7 +76,6 @@ umask 022
 # Псевдонимы
 #-------------------------
 alias e="extract"
-alias drush="/usr/local/bin/drush"
 
 export LS_OPTIONS='--color=always --human'
 alias l='ls $LS_OPTIONS -hF'
